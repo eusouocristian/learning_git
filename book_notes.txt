@@ -1,1 +1,26 @@
-Notes!
+- criar uma pasta no pc onde estará o projeto
+- ir no bash do git (terminal) e navegar até a pasta criada
+- git init    -> para inicializar o git nessa pasta
+- ls -a       -> para aparecer todos os arquivos, inclusive os ocultos como .git; se tiver .git na pasta, o repositorio foi inicializado
+- colocar os arquivos na pasta, caso não estejam
+- git add <file_name>   -> adiciona alterações no arquivo para o git
+- git status    -> indica o status do repositorio
+- para configurar usuario e senha do git: 
+    - git config —global user.email “eusouocristian@hotmail.com”
+    - git config —global user.name “eusouocristian”
+- git commit -m “this commit will .. ”       -> registra alterações no arquivo
+- git diff      -> mostra as alterações feitas no arquivo
+- git diff —staged      -> mostra alterações feitas com relação ao arquivo já adicionado 
+
+- Para clonar pasta criada no GitHub:
+- navegar pelo terminal até a pasta destino do projeto no PC;
+- git clone http://github.com/eusouocristian/teste
+- irá clonar os arquivos 
+- Para testar, alterar o conteúdo de um arquivo e salvar
+- git remote     -> se retornar origin, esta ok
+- git remote add <any_name> <URL>
+- git add <nome_do_arquivo>   ->separa o arquivo para commit
+- git commit -m ‘texto aqui’     
+- git push        -> deve enviar os arquivos para o GitHub
+
+- git pull    -> pega as alterações do GitHub p/ PC
